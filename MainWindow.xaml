@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TabControl>
+            <TabItem Header="Tab 1">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Content for Tab 1" Margin="10"/>
+                    <Button HorizontalAlignment="Stretch" Style="{DynamicResource AccentButtonStyle}" Content="Test"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Tab 2">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Content for Tab 2" Margin="10"/>
+                    <Button HorizontalAlignment="Stretch" Style="{DynamicResource AccentButtonStyle}" Content="Test"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Tab 3">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Content for Tab 3" Margin="10"/>
+                    <Button HorizontalAlignment="Stretch" Style="{DynamicResource AccentButtonStyle}" Content="Test"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
